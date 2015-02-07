@@ -1,7 +1,10 @@
 {
   "name": "adf-widget-iframe",
   "version": "0.1.0",
-  "main": "dist/adf-widget-iframe.js",
+  "main": [
+    "dist/adf-widget-iframe.js",
+    "dist/adf-widget-iframe.css"
+  ],
   "ignore": [
     "bower.json",
     ".bowerrc",
@@ -14,17 +17,9 @@
     "src"
   ],
   "dependencies": {
-    "angular-dashboard-framework": "0.5.1"
+    "angular-dashboard-framework": "0.6.0"
   },
   "devDependencies": {
     "angular-local-storage": "0.1.5"
-  },
-  "overrides": {
-    "angular-dashboard-framework": {
-      "main": [
-        "dist/angular-dashboard-framework.min.js",
-        "dist/angular-dashboard-framework.min.css"
-      ]
-    }
   }
 }
