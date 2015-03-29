@@ -1,7 +1,10 @@
 {
   "name": "adf-widget-iframe",
   "version": "0.1.0",
-  "main": "dist/adf-widget-iframe.js",
+  "main": [
+    "dist/adf-widget-iframe.js",
+    "dist/adf-widget-iframe.css"
+  ],
   "ignore": [
     "bower.json",
     ".bowerrc",
